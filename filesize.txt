@@ -1,0 +1,7 @@
+296K	.
+232K	./.git
+124K	./.git/objects
+64K	./.git/hooks
+12K	./.ssh
+12K	./.git/logs
+8.0K	./.git/refs
