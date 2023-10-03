@@ -1,0 +1,35 @@
+====================  The stats starts from here ====================
+
+Linux 4.18.0-477.27.1.el8_8.x86_64 (devops.example.com) 	09/29/2023 	_x86_64_	(7 CPU)
+
+06:13:45 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+06:13:45 PM  all    0.42    0.00    0.13    0.02    0.06    0.03    0.00    0.00    0.00   99.34
+06:13:45 PM    0    0.21    0.00    0.14    0.01    0.07    0.08    0.00    0.00    0.00   99.48
+06:13:45 PM    1    0.17    0.00    0.09    0.01    0.03    0.02    0.00    0.00    0.00   99.69
+06:13:45 PM    2    0.37    0.00    0.18    0.06    0.06    0.02    0.00    0.00    0.00   99.31
+06:13:45 PM    3    0.73    0.00    0.13    0.01    0.04    0.01    0.00    0.00    0.00   99.07
+06:13:45 PM    4    0.33    0.01    0.13    0.02    0.06    0.02    0.00    0.00    0.00   99.43
+06:13:45 PM    5    0.58    0.01    0.11    0.03    0.04    0.02    0.00    0.00    0.00   99.21
+06:13:45 PM    6    0.53    0.00    0.10    0.01    0.12    0.04    0.00    0.00    0.00   99.20
+
+====================  Complition of CPU Stats ====================
+
+              total        used        free      shared  buff/cache   available
+Mem:          2.5Gi       767Mi       185Mi        12Mi       1.6Gi       1.5Gi
+Swap:         4.0Gi       1.0Mi       4.0Gi
+
+====================  Complition of RAM Usage ====================
+
+Filesystem                 Type      Size  Used Avail Use% Mounted on
+devtmpfs                   devtmpfs  3.3G     0  3.3G   0% /dev
+tmpfs                      tmpfs     3.3G     0  3.3G   0% /dev/shm
+tmpfs                      tmpfs     3.3G  9.2M  3.3G   1% /run
+tmpfs                      tmpfs     3.3G     0  3.3G   0% /sys/fs/cgroup
+/dev/mapper/almalinux-root xfs        35G  6.6G   29G  19% /
+/dev/sda1                  xfs      1014M  328M  687M  33% /boot
+tmpfs                      tmpfs     662M   20K  662M   1% /run/user/42
+tmpfs                      tmpfs     662M     0  662M   0% /run/user/0
+
+====================  Complition of Disk Usage ====================
+
+====================  The stats ends here ====================
