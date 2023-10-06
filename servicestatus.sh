@@ -9,5 +9,7 @@ if [ -z $service_name ];
 then
 	echo "Please enter a valid service name."
 else
+	sudo systemctl restart $service_name
 	sudo systemctl status $service_name
+	sudo systemctl enable $service_name
 fi
