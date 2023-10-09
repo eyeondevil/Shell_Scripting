@@ -1,0 +1,10 @@
+Mon Oct  9 09:40:20 IST 2023
+Filesystem                 Type      Size  Used Avail Use% Mounted on
+devtmpfs                   devtmpfs  2.8G     0  2.8G   0% /dev
+tmpfs                      tmpfs     2.8G     0  2.8G   0% /dev/shm
+tmpfs                      tmpfs     2.8G  9.2M  2.8G   1% /run
+tmpfs                      tmpfs     2.8G     0  2.8G   0% /sys/fs/cgroup
+/dev/mapper/almalinux-root xfs        35G  6.3G   29G  18% /
+/dev/sda1                  xfs      1014M  328M  687M  33% /boot
+tmpfs                      tmpfs     564M   12K  564M   1% /run/user/42
+tmpfs                      tmpfs     564M     0  564M   0% /run/user/0
